@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watch List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="watch-list">
+        <h2 id="addB">Watch-List <img src="images/logoPList.png" /></h2>
+        <hr />
+
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            class="inp"
+            placeholder="Add Your Movie You Want To Watch"
+          />
+          <button onclick="addMovieToList()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+
+      <div class="preview">
+        <h2>Preview <img src="images/logoWatch.png" /></h2>
+        <hr />
+
+        <div class="pre-thumb">
+          <img src="" alt="" id="img" />
+        </div>
+        <div class="pre-detail">
+          <hr />
+
+          <h2 class="infoT"></h2>
+          <h2 class="infoD"></h2>
+          <h2 class="infoA"></h2>
+          <h2 class="infoR"></h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
